@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title><?= $title ?></title>
-	<?= Asset::css('bootstrap.min.css') ?>
+	<?= Asset::css('bootstrap/bootstrap.min.css') ?>
 	<?= Asset::css('https://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/redmond/jquery-ui.css') ?>
 	<?= Asset::css('mystyle.css') ?>
 	<?= Asset::render('library_css') ?>
@@ -42,7 +42,7 @@
 			</div>
 		</footer>
 	</section>
-	<?= Asset::js('bootstrap.min.js') ?>
+	<?= Asset::js('bootstrap/bootstrap.min.js') ?>
 	<?= Asset::js('https://code.jquery.com/jquery-1.11.3.min.js') ?>
 	<?= Asset::js('https://code.jquery.com/ui/1.11.4/jquery-ui.min.js') ?>
 	<?= Asset::js('https://ajax.googleapis.com/ajax/libs/jqueryui/1/i18n/jquery.ui.datepicker-ja.min.js') ?>
